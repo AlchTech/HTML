@@ -5,15 +5,52 @@
 [![Patreon](https://img.shields.io/badge/Patreon-Support-orange?style=for-the-badge&logo=patreon&logoColor=white)](https://www.patreon.com/votreprofil)
 
 
-# &#127760; HTML
-HTML est un langage de balisage utilisé pour structurer le contenu d'une page web. Il permet de définir différents éléments tels que les titres, les paragraphes, les liens, les images, les tableaux, etc. HTML est un langage interprété par les navigateurs web, qui lisent les balises et affichent le contenu de manière appropriée.
+# HTML
+
+<img src="./src/assets/images/html.png" alt="Texte alternatif" class="img-responsive" style="width: 100%; height: 15rem; display: block; object-fit: cover;">
+
+---
+
+
+HTML, ou HyperText Markup Language, est un langage de balisage utilisé pour structurer le contenu d'une page web. Il permet de définir divers éléments tels que les titres, les paragraphes, les liens, les images, les tableaux, les listes, et bien plus encore.
+
+Les navigateurs web interprètent le HTML en lisant les balises et en affichant le contenu de manière appropriée. Chaque élément de la page est encadré par des balises spécifiques qui indiquent au navigateur comment le présenter. Par exemple, les balises h1 définissent un titre principal, tandis que les balises p délimitent un paragraphe.
+
+Grâce à HTML, les développeurs peuvent organiser et présenter l'information de façon claire et cohérente sur internet. Ce langage est fondamental pour la création de sites web et constitue la base sur laquelle d'autres technologies web, comme CSS et JavaScript, peuvent être ajoutées pour améliorer la présentation et les fonctionnalités des pages web.
+
+<br>
 
 ## Table des Matières
 
+<img src="./src/assets/images/matiere.png" alt="Texte alternatif" class="img-responsive" style="width: 100%; height: 15rem; display: block; object-fit: cover;">
+
+---
+
 - [Architecture d'un projet](#)
-- [HEAD](#)
+- [Base](#)
+- [Head](#)
+  - [Meta de base](#)
+  - [Caracteres](#)
+  - [Mobile](#)
+  - [Copyright](#)
+  - [SEO](#)
+  - [Performance](#)
+  - [Controle](#)
+  - [Social](#)
+  - [Style](#)
+  - [Framework](#)
+- [Body](#)
+
+<br>
 
 ### Architecture d'un projet
+
+---
+
+<img src="./src/assets/images/architecte.png" alt="Texte alternatif" class="img-responsive" style="width: 100%; height: 15rem; display: block; object-fit: cover;">
+
+---
+
 ```
 App
  |- public                          <!-- Visible par le client -->
@@ -45,6 +82,13 @@ App
  |- yarn.lock                       <!-- Dépendance et information relative au projet -->
 ```
 ### BASE 
+
+---
+
+<img src="./src/assets/images/base.png" alt="Texte alternatif" class="img-responsive" style="width: 100%; height: 15rem; display: block; object-fit: cover;">
+
+---
+
 <!doctype html> définit le type de document HTML, head contient les métadonnées et body le contenu visible de la page.
 ```code
 <!doctype html>
@@ -57,6 +101,11 @@ App
 ```
 
 ### HEAD
+
+<img src="./src/assets/images/temporaire.png" alt="Texte alternatif" class="img-responsive" style="width: 100%; height: 15rem; display: block; object-fit: cover;">
+
+---
+
 En HTML, le <head> est une balise utilisée pour contenir des éléments qui définissent les métadonnées du document HTML. Ces métadonnées incluent des informations telles que le titre de la page (<title>), les liens vers des feuilles de style (<link>), des scripts JavaScript (<script>), des instructions pour les moteurs de recherche (<meta>), et d'autres données qui ne sont pas directement affichées sur la page web elle-même mais qui sont importantes pour son fonctionnement et son référencement.
 
 #### META DE BASE
