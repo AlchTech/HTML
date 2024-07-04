@@ -16,35 +16,36 @@ HTML est un langage de balisage utilisé pour structurer le contenu d'une page w
 ### Architecture d'un projet
 ```
 App
- |- public                          // Visible par le client
- |    |- index.html                 // Fichier d'entrer par le client (Page d'accueil)
- |    |- apple-touch-icon.png       // Icone
- |    |- favicon.ico                // Icone
- |    |- favicon.svg                // Icone
- |    |- manifest.json              // Information concernant le site
- |    |- sitemap.xml                // Carte de l'architecture du site
+ |- public                          <!-- Visible par le client -->
+ |    |- index.html                 <!-- Fichier d'entrer par le client (Page d'accueil) -->
+ |    |- apple-touch-icon.png       <!-- Icone -->
+ |    |- favicon.ico                <!-- Icone -->
+ |    |- favicon.svg                <!-- Icone -->
+ |    |- manifest.json              <!-- Information concernant le site -->
+ |    |- sitemap.xml                <!-- Carte de l'architecture du site -->
  | 
- |- src                             // Contient les fichiers anexes non visible par le client
- |    |- Assets                     // Contient le contenue media de la page
+ |- src                             <!-- Contient les fichiers anexes non visible par le client -->
+ |    |- Assets                     <!-- Contient le contenue media de la page -->
  |          |- styles
- |               |- style.css       // Feuille de style
+ |               |- style.css       <!-- Feuille de style -->
  |          |- images
- |               |- image.jpg       // Image
+ |               |- image.jpg       <!-- Image -->
  |          |- scripts
- |               |- script.js       // Fichier javaScript
+ |               |- script.js       <!-- Fichier javaScript -->
  |    |- views
- |          |- Other.html           // Autres pages HTML
+ |          |- Other.html           <!-- Autres pages HTML -->
  |    |- Components
- |          |- Composant1.html      // Code ayant une fonction particuliere
- |    |- index.js                        // Fichier receptionnant tout les scripts.js
+ |          |- Composant1.html      <!-- Code ayant une fonction particuliere -->
+ |    |- index.js                   <!-- Fichier receptionnant tout les scripts.js -->
  | 
  |- node_modules
  |- .env
- |- .gitignore                      // Ignore l'envoi de fichier lourd(node_modules)ou sensible(.env) au repo
- |- package.json                    // Dépendance et information relative au projet
- |- yarn.lock                       // Dépendance et information relative au projet
+ |- .gitignore                      <!-- Ignore l'envoi de fichier lourd(node_modules)ou sensible(.env) au repo -->
+ |- package.json                    <!-- Dépendance et information relative au projet -->
+ |- yarn.lock                       <!-- Dépendance et information relative au projet -->
 ```
 ### BASE 
+<!doctype html> définit le type de document HTML, head contient les métadonnées et body le contenu visible de la page.
 ```code
 <!doctype html>
 <head>
