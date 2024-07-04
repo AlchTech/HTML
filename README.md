@@ -102,11 +102,11 @@ App
 
 ### HEAD
 
-<img src="./src/assets/images/temporaire.png" alt="Texte alternatif" class="img-responsive" style="width: 100%; height: 15rem; display: block; object-fit: cover;">
+<img src="./src/assets/images/head.png" alt="Texte alternatif" class="img-responsive" style="width: 100%; height: 15rem; display: block; object-fit: cover;">
 
 ---
 
-En HTML, le <head> est une balise utilisée pour contenir des éléments qui définissent les métadonnées du document HTML. Ces métadonnées incluent des informations telles que le titre de la page (<title>), les liens vers des feuilles de style (<link>), des scripts JavaScript (<script>), des instructions pour les moteurs de recherche (<meta>), et d'autres données qui ne sont pas directement affichées sur la page web elle-même mais qui sont importantes pour son fonctionnement et son référencement.
+En HTML, le head est une balise utilisée pour contenir des éléments qui définissent les métadonnées du document HTML. Ces métadonnées incluent des informations telles que le titre de la page title, les liens vers des feuilles de style link, des scripts JavaScript script, des instructions pour les moteurs de recherche meta, et d'autres données qui ne sont pas directement affichées sur la page web elle-même mais qui sont importantes pour son fonctionnement et son référencement.
 
 #### META DE BASE
 Métadonnées de base
@@ -257,3 +257,9 @@ integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIe
 ```
 
 ---
+
+### BODY
+
+<img src="./src/assets/images/body.png" alt="Texte alternatif" class="img-responsive" style="width: 100%; height: 15rem; display: block; object-fit: cover;">
+
+#### TEXTUEL
