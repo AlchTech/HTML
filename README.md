@@ -81,6 +81,9 @@ App
  |- package.json                    <!-- Dépendance et information relative au projet -->
  |- yarn.lock                       <!-- Dépendance et information relative au projet -->
 ```
+
+<br>
+
 ### BASE 
 
 ---
@@ -89,7 +92,8 @@ App
 
 ---
 
-<!doctype html> définit le type de document HTML, head contient les métadonnées et body le contenu visible de la page.
+La déclaration doctype définit le type de document et informe le navigateur que la page utilise la dernière version de HTML. La section head contient des métadonnées essentielles telles que le titre de la page, les liens vers les feuilles de style CSS, les scripts JavaScript, les balises meta pour le SEO et les paramètres de caractères. La section body, quant à elle, renferme tout le contenu visible de la page, y compris les textes, images, liens, tableaux, et autres éléments interactifs.
+
 ```code
 <!doctype html>
 <head>
@@ -100,13 +104,15 @@ App
 </body>
 ```
 
+<br>
+
 ### HEAD
 
 <img src="./src/assets/images/head.png" alt="Texte alternatif" class="img-responsive" style="width: 100%; height: 15rem; display: block; object-fit: cover;">
 
 ---
 
-En HTML, le head est une balise utilisée pour contenir des éléments qui définissent les métadonnées du document HTML. Ces métadonnées incluent des informations telles que le titre de la page title, les liens vers des feuilles de style link, des scripts JavaScript script, des instructions pour les moteurs de recherche meta, et d'autres données qui ne sont pas directement affichées sur la page web elle-même mais qui sont importantes pour son fonctionnement et son référencement.
+En HTML, le head est une balise utilisée pour contenir des éléments qui définissent les métadonnées du document HTML. Ces métadonnées incluent des informations telles que le titre de la page, les liens vers des feuilles de style, des scripts JavaScript, des instructions pour les moteurs de recherche meta, et d'autres données qui ne sont pas directement affichées sur la page web elle-même mais qui sont importantes pour son fonctionnement et son référencement.
 
 #### META DE BASE
 Métadonnées de base
@@ -173,6 +179,9 @@ Permet de définir les droits d'auteur et l'auteur.
 ```
 
 #### SEO ET ROBOT
+Le SEO, ou Search Engine Optimization, est un ensemble de techniques visant à améliorer la visibilité et le classement d'un site web dans les résultats des moteurs de recherche. L'objectif du SEO est d'attirer plus de visiteurs en s'assurant que le site apparaisse parmi les premiers résultats lorsqu'un utilisateur effectue une recherche pertinente.
+
+Les robots, ou crawlers, sont des programmes automatisés utilisés par les moteurs de recherche pour explorer et indexer les pages web. Ces robots parcourent les sites, lisent le contenu, analysent les balises HTML et suivent les liens pour découvrir de nouvelles pages. Les informations collectées sont ensuite utilisées pour déterminer la pertinence et le classement des pages dans les résultats de recherche.
 ```
 <!-- SEO - Page d'origine, Architecture  -->
 <link rel="canonical" href="https://www.harmonyfidelis.com/" />
@@ -187,6 +196,11 @@ Permet de définir les droits d'auteur et l'auteur.
 <meta name="robots" content="nosnippet">  <!-- Empêche l'affichage d'un extrait de la page
 ```
 #### PERFORMANCE
+
+Optimiser la performance d'un site web est crucial pour offrir une expérience utilisateur fluide et optimiser le classement dans les résultats de recherche. La balise x-dns-prefetch-control active le prefetch DNS, ce qui réduit significativement le temps de chargement des pages externes en résolvant les noms de domaine avant même que l'utilisateur ne clique sur un lien. De même, l'utilisation de la balise prerender permet de précharger une page en arrière-plan, anticipant ainsi la navigation de l'utilisateur et accélérant l'affichage de la page lorsqu'elle est demandée.
+
+Pour améliorer encore la vitesse de chargement initial, les développeurs peuvent utiliser les balises preload pour charger préventivement des ressources critiques comme les fichiers CSS, les images et les scripts JavaScript. En gérant efficacement le cache avec les balises appropriées telles que cache-control et pragma, il est possible de contrôler comment les navigateurs stockent et récupèrent les données du site, optimisant ainsi les performances de chargement et réduisant la charge sur le serveur. Enfin, l'activation de la compression des données avec la balise content-encoding (généralement avec Gzip) diminue la taille des fichiers transférés, ce qui se traduit par des temps de chargement plus rapides pour les utilisateurs, surtout sur les connexions réseau moins rapides.
+
 ```
 <meta http-equiv="x-dns-prefetch-control" content="on">     <!-- Activer le prefetch DNS -->
 <meta http-equiv="x-dns-prefetch-control" content="off">    <!-- Désactiver le prefetch DNS -->
