@@ -268,8 +268,50 @@ integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEw
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
 integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<!-- Jquery -->
+<script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
 ```
 
+#### DONNNEES STRUCTUREES / RICHCARD 
+Les données structurées, ou richcards, sont des extraits enrichis que Google utilise pour améliorer les résultats de recherche. Elles fournissent des informations supplémentaires de manière structurée, ce qui aide les moteurs de recherche à mieux comprendre le contenu de votre page et à l'afficher de manière plus attrayante dans les résultats de recherche.
+```
+https://developers.google.com/search/docs/appearance/structured-data/search-gallery?hl=fr
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Crème brûlée",
+    "author": {
+        "@type": "Person",
+        "name": "Chef Exemple"
+    },
+    "datePublished": "2023-07-01",
+    "description": "Une délicieuse crème brûlée avec une croûte de sucre caramélisé.",
+    "prepTime": "PT30M",
+    "cookTime": "PT1H",
+    "totalTime": "PT1H30M",
+    "recipeYield": "4 portions",
+    "recipeIngredient": [
+        "1 tasse de crème",
+        "1 gousse de vanille",
+        "4 jaunes d'œufs",
+        "1/2 tasse de sucre",
+        "sucre pour caraméliser"
+    ],
+    "recipeInstructions": [
+        "Préchauffer le four à 150°C.",
+        "Chauffer la crème avec la gousse de vanille.",
+        "Fouetter les jaunes d'œufs avec le sucre.",
+        "Mélanger les deux préparations.",
+        "Verser dans des ramequins et cuire au bain-marie pendant 1 heure.",
+        "Saupoudrer de sucre et caraméliser avec un chalumeau."
+    ],
+    "image": "https://www.exemple.com/creme-brulee.jpg"
+}
+</script>
+```
 ---
 
 ### BODY
