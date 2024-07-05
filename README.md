@@ -336,3 +336,52 @@ https://developers.google.com/search/docs/appearance/structured-data/search-gall
 ```
 
 #### TEXTUEL
+```
+<!-- Commentaire -->                <!-- Textuel - Un commentaire. -->
+<br>                                <!-- Textuel - Saut de ligne. -->
+<b>gras</b>                         <!-- Textuel - Gras -->
+<strong>gras important</strong>     <!-- Textuel - Gras SEO TRES IMPORTANT -->
+<i>italique</i>                     <!-- Textuel - Italic -->
+<em>italic  important</em>          <!-- Textuel - Italic SEO IMPORTANT -->
+<mark>Surlignement</mark>           <!-- Textuel - Surligne le texte SEO PEU IMPORTANT -->
+<s>Barrer</s>                       <!-- Textuel - Barrer le texte -->
+<u>Soulignement</u>                 <!-- Textuel - Soulignement du texte -->
+<del>mot supprimer</del>            <!-- Textuel - indique que le mot est supprimer -->
+<ins>mot ajouter</ins>              <!-- Textuel - indique que le mot est ajouter -->
+
+<code>functioName()</code>          <!-- Textuel - Code textuelle -->
+<kbd>Ctrl</kbd>                     <!-- Textuel - Touche clavier -->
+<samp>Keyboard not found</samp>     <!-- Textuel - Resultat produit d'un programme -->
+<var>X</var>                        <!-- Textuel - Variable en mathématique -->
+<sub>2</sub>                        <!-- Textuel - Texte plus petit en bas(formule) -->
+<sup>2</sup>                        <!-- Textuel - Texte plus petit en haut(puissance) -->
+<time datetime="20:00">20:00</time> <!-- Textuel - Definis une heure -->
+<math>2 + 2</math>                  <!-- Textuel - Langage mathématique (Tex) -->
+
+<h1>Titre de niveau 1</h1>          <!-- Textuel - Titre de niveau 1 SEO -->
+<h2>Titre de niveau 2</h2>          <!-- Textuel - Titre de niveau 2 SEO -->
+<h3>Titre de niveau 3</h3>          <!-- Textuel - Titre de niveau 3 SEO -->
+<h4>Titre de niveau 4</h4>          <!-- Textuel - Titre de niveau 4 -->
+<h5>Titre de niveau 5</h5>          <!-- Textuel - Titre de niveau 5 -->
+<h6>Titre de niveau 6</h6>          <!-- Textuel - Titre de niveau 6 -->
+<hgroup>                            <!-- Textuel - Contient plusieurs titres -->
+    <h1>Titre</h1>
+    <h2>Sous-titre</h2>
+</hgroup>
+
+
+<p>Un paragraphe</p>                    <!-- Textuel - Paragraphe sur une ligne. -->
+<pre>Un paragraphe</pre>                <!-- Textuel - Paragraphe prenant en compte les retour à la ligne. -->
+<abbr title="abreaviation">abbr</abbr>  <!--Textuel - Donne le titre complet de l'abreviation -->
+    
+
+<ol>                                    <!-- Textuel - Liste ordonnée (1, 2, 3) -->
+  <li>Liste ordonnée</li>
+  <li>Liste ordonnée</li>
+</ol>
+
+<ul>                                   <!-- Textuel - Liste non-ordonnée ( °, °, °) -->
+  <li>Liste non-ordonnée</li>
+  <li>Liste non-ordonnée</li>
+</ul>
+```
