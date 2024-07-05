@@ -318,4 +318,21 @@ https://developers.google.com/search/docs/appearance/structured-data/search-gall
 
 <img src="./src/assets/images/body.png" alt="Texte alternatif" class="img-responsive" style="width: 100%; height: 15rem; display: block; object-fit: cover;">
 
+--- 
+
+#### ARCHITECTURE
+```
+<header></header>
+<nav></nav>
+<main>
+  <section id="section1"></section>
+  <section id="section2"></section>
+<main>
+<aside></aside>
+<footer></footer>
+
+<div></div>
+<span></span>
+```
+
 #### TEXTUEL
