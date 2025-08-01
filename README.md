@@ -1,9 +1,5 @@
 [![GitHub followers](https://img.shields.io/github/followers/AlchTech?label=Follow&style=for-the-badge)](https://github.com/AlchTech) 
 ![GitHub stars](https://img.shields.io/github/stars/AlchTech?style=for-the-badge)
-[![Email](https://img.shields.io/badge/Email-harmonyfidelis@gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:votreadresse@email.com)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/j%C3%A9r%C3%A9my-saletteswozniak/)
-[![Patreon](https://img.shields.io/badge/Patreon-Support-orange?style=for-the-badge&logo=patreon&logoColor=white)](https://www.patreon.com/harmonyfidelis)
-
 
 # HTML
 
@@ -385,3 +381,13 @@ https://developers.google.com/search/docs/appearance/structured-data/search-gall
   <li>Liste non-ordonnée</li>
 </ul>
 ```
+---
+
+## Contact
+[![Email](https://img.shields.io/badge/Email-D%C3%A9marrer%20un%20email-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:harmonyfidelis@email.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/j%C3%A9r%C3%A9my-saletteswozniak/)
+
+## Support
+
+[![Patreon](https://img.shields.io/badge/Patreon-Support-orange?style=for-the-badge&logo=patreon&logoColor=white)](https://www.patreon.com/preview/campaign?u=69467720&fan_landing=true&view_as=public)
+[![PayPal](https://img.shields.io/badge/PayPal-Donate-blue?style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.com/donate/?hosted_button_id=LCNUQKQAJL5VS)
